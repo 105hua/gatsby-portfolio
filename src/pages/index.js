@@ -56,7 +56,7 @@ const IndexPage = () => {
         <ButtonGroup color="inherit" variant="text" aria-label="text button group">
 
           <Button href="./">Home</Button>
-          <Button href="./404">About Me</Button>
+          <Button href="./aboutme">About Me</Button>
           <Button>My Projects</Button>
           <Button>Contact Me</Button>
 
