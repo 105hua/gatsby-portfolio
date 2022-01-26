@@ -8,6 +8,15 @@ import TypeWriter from "typewriter-effect";
 import ButtonGroup from '@mui/material/ButtonGroup';
 import Button from "@mui/material/Button";
 
+const buttonGroupStyle = {
+
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  marginTop: "100px",
+  color: "white",
+
+}
 
 const IndexPage = () => {
   return (
@@ -51,7 +60,7 @@ const IndexPage = () => {
 
         </p>
 
-        <div id="buttongroup">
+        <div style={buttonGroupStyle}>
 
         <ButtonGroup color="inherit" variant="text" aria-label="text button group">
 

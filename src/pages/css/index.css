@@ -19,16 +19,6 @@ body{
 
 }
 
-#buttongroup{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 100px;
-    color: white;
-
-}
-
 #gatsbylogo{
 
     width: 128px;
