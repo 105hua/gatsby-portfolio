@@ -70,8 +70,21 @@ h1{
 
 }
 
+#currentlydoing{
+
+    font-size: 32px;
+    margin-left: 20px;
+
+}
+
 .alignleft{
 
     text-align: left;
+
+}
+
+.alignright{
+
+    text-align: right;
 
 }
