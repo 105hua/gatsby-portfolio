@@ -14,7 +14,7 @@ const buttonGroupStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  marginTop: "100px",
+  marginTop: "25px",
   color: "white",
 
 }

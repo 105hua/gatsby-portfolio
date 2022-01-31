@@ -40,12 +40,10 @@ const MyProjectsPage = () => {
             </div>
 
             <p class="aligntocenter">
-
-                During my six years as a Software Developer, I have worked on many projects, however, here are a few that I am most proud of!
-
-                
-
+                During my time as a Software Developer, I have worked on many projects, both on my own and with other Developers. Below is a collection of some of my recent work, which is updated regularly.
             </p>
+
+            
         
         </>
 
