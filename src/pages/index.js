@@ -1,3 +1,10 @@
+/*
+
+TODO List:
+- Convert all styles currently stored on CSS to styles inside of each JavaScript file. This might take a little while, I'm really not sure.
+
+*/
+
 import React from "react";
 import { Helmet } from "react-helmet";
 import "./css/index.css";
