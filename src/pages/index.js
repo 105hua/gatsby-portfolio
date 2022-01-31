@@ -88,7 +88,7 @@ const IndexPage = () => {
 
         <h5>Website made with 💖 by Josh with Gatsby.</h5>
 
-        <img id="gatsbylogo" src={GatsbyLogo}/>
+        <img alt="It looks like you can't view any images, try reloading the page again." id="gatsbylogo" src={GatsbyLogo}/>
 
       </FadeIn>
 

@@ -12,6 +12,17 @@ const buttonGroupStyle = {
 
 }
 
+const orderedListStyle = {
+
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    fontFamily: "'Ubuntu', sans-serif",
+    fontWeight: "bold",
+    fontSize: "20px",
+
+}
+
 const centerImageStyle = {
 
     display: "block",
@@ -70,13 +81,30 @@ const MyProjectsPage = () => {
 
                 <h2 style={ headerTwoStyle }>Security Module Revived</h2>
 
-                <a href="https://github.com/105hua/Security-Module-Revived"><img style={ centerImageStyle } src="https://gh-card.dev/repos/105hua/Security-Module-Revived.svg" /></a>
+                <a href="https://github.com/105hua/Security-Module-Revived"><img alt="It looks like you can't view any images, try reloading the page again." style={ centerImageStyle } src="https://gh-card.dev/repos/105hua/Security-Module-Revived.svg" /></a>
 
                 <p style={ projectDescriptionStyle }>
 
-                    This is a project description
+                    Security Module Revived is a cryptography project that aims to make using BouncyCastle a lot easier. This will be done by simply providing a file path<br />
+                    and a key, where the module will take over and do the rest. The module is currently a Work-In-Progress and there are no plans to take it out of this<br />
+                    phase at this stage, however, rest assured that this project is under active development!<br /><br />
+
+                    Below is a list of currently planned Cipher Algorithms:
 
                 </p>
+
+                <div style={ orderedListStyle }>
+
+                    <ol>
+
+                        <li>AES-256</li>
+                        <li>Serpent-256</li>
+                        <li>TwoFish</li>
+                        <li></li>
+
+                    </ol>
+
+                </div>
 
             </div>
 
@@ -84,7 +112,7 @@ const MyProjectsPage = () => {
 
                 <h2 style={ headerTwoStyle }>Gatsby Portfolio</h2>
 
-                <a href="https://github.com/105hua/gatsby-portfolio"><img style={ centerImageStyle } src="https://gh-card.dev/repos/105hua/gatsby-portfolio.svg" /></a>
+                <a href="https://github.com/105hua/gatsby-portfolio"><img alt="It looks like you can't view any images, try reloading the page again." style={ centerImageStyle } src="https://gh-card.dev/repos/105hua/gatsby-portfolio.svg" /></a>
 
                 <p style={ projectDescriptionStyle }>
 
