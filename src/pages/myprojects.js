@@ -97,17 +97,35 @@ const MyProjectsPage = () => {
 
                     <ol>
 
-                        <li>AES-256</li>
-                        <li>Serpent-256</li>
+                        <li>AES</li>
+                        <li>Serpent</li>
                         <li>TwoFish</li>
-                        <li></li>
+
+                    </ol>
+
+                </div>
+
+                <p style={ projectDescriptionStyle }>
+
+                    Below is a list of currently planned Hashing Algorithms:
+
+                </p>
+
+                <div style={ orderedListStyle }>
+
+                    <ol>
+
+                        <li>SHA-2</li>
+                        <li>SHA-3</li>
+                        <li>MD5</li>
+                        <li>RIPEMD320</li>
+                        <li>Whirlpool</li>
 
                     </ol>
 
                 </div>
 
             </div>
-
             <div id="gatsbyportfoliosection">
 
                 <h2 style={ headerTwoStyle }>Gatsby Portfolio</h2>
@@ -116,7 +134,9 @@ const MyProjectsPage = () => {
 
                 <p style={ projectDescriptionStyle }>
 
-                    This is a project description
+                    Gatsby Portfolio, in short terms, is a small Portfolio Website that I have created in an effort to load React. In case you haven't got the memo, you are<br />
+                    viewing a build of Gatsby Portfolio right now! I intend to update Gatsby Portfolio regularly until I am satisfied with how the website looks. I am also<br />
+                    working on this in conjunction with Security Module Revived.
 
                 </p>
 
