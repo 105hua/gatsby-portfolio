@@ -66,14 +66,14 @@ h1{
 #earlybeginnings{
 
     font-size: 32px;
-    margin-left: 20px;
+    text-align: center
 
 }
 
 #currentlydoing{
 
     font-size: 32px;
-    margin-left: 20px;
+    text-align: center;
 
 }
 
@@ -86,5 +86,13 @@ h1{
 .alignright{
 
     text-align: right;
+
+}
+
+.aligntocenter{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }

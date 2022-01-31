@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import "./css/index.css";
 import FadeIn from "react-fade-in";
 import ReactRoundedImage from "react-rounded-image";
@@ -22,6 +23,12 @@ const IndexPage = () => {
   return (
 
     <>
+
+      <Helmet>
+
+        <title>Joshua T | About Me</title>
+
+      </Helmet>
 
       <FadeIn>
 
@@ -60,14 +67,20 @@ const IndexPage = () => {
 
         </p>
 
+        <div class="aligntocenter">
+
+          <embed type="text/html" src="https://github-readme-stats.vercel.app/api?username=105hua&theme=dark" />
+
+        </div>
+
         <div style={buttonGroupStyle}>
 
         <ButtonGroup color="inherit" variant="text" aria-label="text button group">
 
           <Button href="./">Home</Button>
           <Button href="./aboutme">About Me</Button>
-          <Button>My Projects</Button>
-          <Button>Contact Me</Button>
+          <Button href="./myprojects">My Projects</Button>
+          <Button href="./contactme">Contact Me</Button>
 
         </ButtonGroup>
 

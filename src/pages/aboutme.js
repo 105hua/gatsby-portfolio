@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 import TypeWriter from "typewriter-effect";
 import FadeIn from "react-fade-in";
 import Button from "@mui/material/Button";
@@ -15,7 +16,7 @@ const buttonGroupStyle = {
 
 const currentlyDoingStyle = {
 
-    textAlign: "right",
+    textAlign: "center",
 
 }
 
@@ -25,11 +26,23 @@ const separator = {
 
 }
 
+const centerAlign = {
+
+    textAlign: "center",
+
+}
+
 const AboutMePage = () => {
 
     return(
 
         <>
+
+            <Helmet>
+
+                <title>Joshua T | About Me</title>
+
+            </Helmet>
 
             <h1>About Me</h1>
 
@@ -39,8 +52,8 @@ const AboutMePage = () => {
 
                     <Button href="./">Home</Button>
                     <Button href="./aboutme">About Me</Button>
-                    <Button>My Projects</Button>
-                    <Button>Contact Me</Button>
+                    <Button href="./myprojects">My Projects</Button>
+                    <Button href="./contactme">Contact Me</Button>
 
                 </ButtonGroup>
 
@@ -56,7 +69,7 @@ const AboutMePage = () => {
 
                 <FadeIn>
 
-                    <p class="alignleft">
+                    <p style={centerAlign}> 
 
                         My earliest memory in programming would likely be doing basic tinkering with Batch<br />
                         in Primary School. I never really knew what I was doing back then, however, looking<br />
@@ -89,12 +102,17 @@ const AboutMePage = () => {
 
                     } }></TypeWriter>
 
-                    <p class="alignright">
+                    <p>
 
-                        Nowadays, I am trying to stick to three programming languages, those being C#, LUA and React.<br />
-                        C# allows me to create efficient and easy to obtain Desktop Applications, LUA allows me to work<br />
-                        with the popular online game platform, Roblox and React allows me to create beautiful and responsive<br />
-                        websites.
+                        Nowadays, I am only specialising in three languages, those being C#, LUA and React. I have<br />
+                        chosen C# because of its efficiency, LUA because of how easy it is to use inside of the<br />
+                        popular games platform, Roblox and React because it gives me the ability to build beautiful<br />
+                        websites with relative ease. I am also maintaining several projects on GitHub, to name a few,<br />
+                        this website, which was built with Gatsby and Security Module Revived, which is a C# implementation<br />
+                        of an old project of mine, called Security Module, which was a Module for VB.NET which made<br />
+                        implementing Security a lot easier, by simplifying the process of using BouncyCastle.<br /><br />
+
+                        You can read more about the projects I work on by going to the "My Projects" page.
 
                     </p>
 
